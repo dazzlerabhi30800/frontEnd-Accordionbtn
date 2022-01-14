@@ -25,6 +25,7 @@ body {
     display : flex;
     justify-content : center;
     align-items : center;
+    background : linear-gradient(90deg, rgb(241, 91, 184), rgb(120, 93, 245));
 }
 .container-header {
     display :flex;
@@ -37,13 +38,13 @@ body {
 .component {
     width : 400px;
     /* height : 900px; */
-    background : rgb(239, 239, 240);
+    background : rgba(239, 239, 240, 0.658);
     margin-top : 6rem;
     border-radius : 10px;
     display : grid;
     justify-content : center;
     align-items : center;
-    box-shadow: 6px 12px 21px 9px #ccc;
+    box-shadow: 6px 12px 21px 9px rgba(24, 23, 23, 0.171);
 }
 
 .img-wrapper {
