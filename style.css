@@ -114,9 +114,12 @@ body {
 }
 .answer {
     font-size : 12px;
-    line-height : 15px;
+    line-height : 0px;
     color : var(--Dark-grayish-blue);
-    display : none;
+    /* display : none; */
+    position : relative;
+    transform : translateX(-500%);
+    transition : all .2s ease-out;
 }
 .question  {
     font-size : 14px;
@@ -131,6 +134,7 @@ body {
     height : auto;
     margin-top : .4rem;
     font-size : .9rem;
+    transform : translateX(0%);
 }
 
 @media (min-width : 1000px) {
