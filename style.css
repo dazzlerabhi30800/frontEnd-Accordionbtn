@@ -91,6 +91,7 @@ body {
     border-bottom : 1px solid rgb(224, 224, 224);
     padding-bottom : 1rem;
     padding-top : 1rem;
+    cursor : pointer;
 }
 .accordian-wrapper .last{
     border-bottom : none;
